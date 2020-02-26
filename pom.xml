@@ -29,8 +29,8 @@
                        <cloudHubDeployment>
                               <uri>https://anypoint.mulesoft.com</uri>
                               <muleVersion>${mule.version}</muleVersion>
-                              <username>gauravdhimate0913</username>
-                              <password>Java@1234</password>
+                              <username>${anypoint.username}</username>
+                              <password>${anypoint.password}</password>
                               <applicationName>azure-devops-app-123489</applicationName>
                               <environment>Sandbox</environment>
                               <businessGroup>Apisero</businessGroup>
